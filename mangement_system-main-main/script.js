@@ -9,7 +9,7 @@ loadingPage.style.display = 'flex';
 setTimeout(() => {
     loadingPage.style.display = 'none';
     mainPage.style.display = 'flex';
-}, 1000);
+}, 3000);
 // animation media
 function toggleShareMenu(){
     document.getElementsByClassName("share-menu")[0].classList.toggle("active");
